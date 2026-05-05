@@ -1,0 +1,10 @@
+[package]
+name = "em-no-train"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+candle-core.workspace = true
+candle-nn.workspace   = true
+em-no-core    = { path = "../em-no-core" }
+em-no-physics = { path = "../em-no-physics" }

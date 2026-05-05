@@ -1,0 +1,19 @@
+[package]
+name = "em-no-cli"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "em-no-agent"
+path = "src/main.rs"
+
+[dependencies]
+candle-core.workspace = true
+candle-nn.workspace   = true
+em-no-core    = { path = "../em-no-core" }
+em-no-physics = { path = "../em-no-physics" }
+em-no-train   = { path = "../em-no-train" }
+em-no-visual  = { path = "../em-no-visual" }  # 新增
+pollster      = "0.3"                         # 新增
+anyhow        = "1.0"
+env_logger    = "0.11"

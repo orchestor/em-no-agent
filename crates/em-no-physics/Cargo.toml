@@ -1,0 +1,11 @@
+[package]
+name = "em-no-physics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+candle-core.workspace = true
+rand.workspace        = true
+
+# 如果你在 Maxwell 那边用到了 rand_distr，就加：
+rand_distr.workspace  = true
