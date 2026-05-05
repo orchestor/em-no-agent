@@ -11,3 +11,4 @@ target/
 # VSCode / IDE
 .vscode/
 .idea/
+target/
